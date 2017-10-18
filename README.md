@@ -7,6 +7,7 @@ Creates a new directory MP4GPS and then does the following in this directory:
 * Aligns the MP4 filename with the GPS data filename
 * Soflinks the GPS file
 * If GPSBabel is installed, converts GPS from NMEA to more common GPX
+
 __WARNING:__ The joining task has to create a new composite MP4 so uses more disk, therefore make sure you have sufficient disk
 
 ## Requires
