@@ -43,7 +43,7 @@ What I then do with my videos is use [Garmin VIRB Edit](https://itunes.apple.com
 16. "Source: Choose" and choose the Transparent image, "Save" "Close"
 17. Lay the Transparent Gauge on the video (current bug in VIRB 5.2.1 I go export then go back and it often dissappears, so I just redo)
 18. Switch to Track gauge and lay the track over the Transparent Gauge
-19. "Appearance" -> "Transform" and scale the track so that it lines up with the transparent GPS track, I find I have to switch to full screen mode to move it around with teh arrow keys
+19. "Appearance" -> "Transform" and scale the track so that it lines up with the transparent GPS track, I find I have to switch to full screen mode to move it around with the arrow keys
 20. Export !!!!
 
 ## Example Result from Garmin VIRB Edit
