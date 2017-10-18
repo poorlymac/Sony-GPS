@@ -22,3 +22,29 @@ MP_ROOT
 PRIVATE
 Sony-GPS.sh
 ```
+
+## FYI
+What I then do with my videos is use [Garmin VIRB Edit](https://itunes.apple.com/au/app/garmin-virb-edit/id703910885?mt=12) to add in my GPS. Actions:
+1. "Create Video"
+2. "Map"
+3. "Import G-Metrix..."
+4. "On My Computer"
+5. Choose your GPX file
+6. "Use this Log"
+7. "Map" -> "Terrain"
+8. Screenshot the terrain Command+Shift+4, I do 615x615
+9. Run Screenshot through to make it transparent (60%) [ImageMagick](https://www.imagemagick.org/script/index.php) e.g. "convert 17091803.png -alpha set -channel A -evaluate set 60% 17091803_Transparent.png" to make it transparent (60%)
+10. "G-Metrix"
+11. Choose Template
+12. Delete any non required Gauges
+13. "Gauges"
+14. "Select a Data Type" -> "Logo"
+15. "Clone and Edit Gauge (Beta) ..."
+16. "Source: Choose" and choose the Transparent image, "Save" "Close"
+17. Lay the Transparent Gauge on the video (current bug in VIRB 5.2.1 I go export then go back and it often dissappears, so I just redo)
+18. Switch to Track gauge and lay the track over the Transparent Gauge
+19. "Appearance" -> "Transform" and scale the track so that it lines up with the transparent GPS track, I find I have to switch to full screen mode to move it around with teh arrow keys
+20. Export !!!!
+
+## Example Result from Garmin VIRB Edit
+![VIRB Edit Rocks]("VIRB Edit.png")
