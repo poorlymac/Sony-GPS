@@ -33,7 +33,7 @@ What I then do with my videos is use [Garmin VIRB Edit](https://itunes.apple.com
 6. "Use this Log"
 7. "Map" -> "Terrain"
 8. Screenshot the terrain Command+Shift+4, I do 615x615
-9. Run Screenshot through to make it transparent (60%) [ImageMagick](https://www.imagemagick.org/script/index.php) e.g. "convert 17091803.png -alpha set -channel A -evaluate set 60% 17091803_Transparent.png" to make it transparent (60%)
+9. Run Screenshot through to make it transparent (60%) [ImageMagick](https://www.imagemagick.org/script/index.php) e.g. ```convert 17091803.png -alpha set -channel A -evaluate set 60% 17091803_Transparent.png" to make it transparent (60%)```
 10. "G-Metrix"
 11. Choose Template
 12. Delete any non required Gauges
