@@ -47,4 +47,4 @@ What I then do with my videos is use [Garmin VIRB Edit](https://itunes.apple.com
 20. Export !!!!
 
 ## Example Result from Garmin VIRB Edit
-![VIRB Edit Rocks]("VIRB Edit.png")
+![VIRB Edit Rocks](VIRB%20Edit.png)
