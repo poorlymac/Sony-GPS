@@ -23,7 +23,7 @@ PRIVATE
 Sony-GPS.sh
 ```
 
-## FYI
+## GPS overlays using Garmin VIRB Edit
 What I then do with my videos is use [Garmin VIRB Edit](https://itunes.apple.com/au/app/garmin-virb-edit/id703910885?mt=12) to add in my GPS. Actions:
 1. "Create Video"
 2. "Map"
