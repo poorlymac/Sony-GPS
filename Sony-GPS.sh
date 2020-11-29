@@ -117,7 +117,7 @@ do
 			# Convert NMEA to GPX if we have GPSBabel and the LOG exists
 			if [ "$GPSBABEL" != "" ]
 			then
-				"$GPSBABEL" -i nmea -f $GPS -o gpx,gpxver=1.1 -F MP4GPS/${NF}_$(basename $GPS | sed 's/\.[^.]*$//').gpx
+				"$GPSBABEL" -i nmea -f $GPS -o gpx,gpxver=1.0 -F - | sed 's@<ele>[0-9.-]*</ele>@@g' > MP4GPS/${NF}_$(basename $GPS | sed 's/\.[^.]*$//').gpx
 			fi
 			PRV_GPS=$GPS
 		else
